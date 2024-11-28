@@ -1,0 +1,5 @@
+default_folders_to_check:
+  - path: /etc/default_folder
+    permissions: "0755"
+  - path: /var/log
+    permissions: "0700"
