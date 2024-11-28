@@ -11,4 +11,12 @@ roles:
     scm: git
     version: main
 ```
+
+add below content in `meta/main.yml`
+```
+---
+dependencies:
+  - name: <<Name of the Role>>
+```
+
 It should be available now for consuption
